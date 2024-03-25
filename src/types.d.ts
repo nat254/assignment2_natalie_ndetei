@@ -10,3 +10,7 @@ type ContextWeatherProps = {
     weather: string;
     changeWeather: () => void;
 };
+
+type AdviseProps = {
+    advise: string;
+};

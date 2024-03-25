@@ -5,14 +5,17 @@ import Counter from "./component/Counter";
 import PropDrilling from "./component/PropDrilling";
 import Context from "./component/Context";
 import DummyForm from "./component/DummyForm";
+import Mother from "./component/Mother";
 
 function App() {
   return (
     <div>
-       <Counter initialCount={5} />
+       {/* <Counter initialCount={5} />
        <PropDrilling />
        <Context />
-       <DummyForm />
+       <DummyForm /> */}
+       <Mother />
+       
     </div>
   );
 }
