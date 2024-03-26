@@ -7,6 +7,8 @@ import Context from "./component/Context";
 import DummyForm from "./component/DummyForm";
 import Mother from "./component/Mother";
 import DemoCarList from "./component/DemoCarList";
+import Login from "./component/Login";
+import Signup from "./component/Signup";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
        <DummyForm /> */}
        <Mother />
        <DemoCarList />
+       <Login />
+       <br />
+       <br />
+       <Signup />
        
     </div>
   );
