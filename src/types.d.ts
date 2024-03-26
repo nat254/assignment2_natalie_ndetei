@@ -14,3 +14,7 @@ type ContextWeatherProps = {
 type AdviseProps = {
     advise: string;
 };
+
+type CarProps = {
+    car: string[];
+};
