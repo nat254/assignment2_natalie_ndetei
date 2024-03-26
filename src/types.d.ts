@@ -18,3 +18,8 @@ type AdviseProps = {
 type CarProps = {
     car: string[];
 };
+
+type FlowerContextProps = {
+    flower: string;
+    changeFlower: () => void;
+};

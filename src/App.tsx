@@ -9,21 +9,37 @@ import Mother from "./component/Mother";
 import DemoCarList from "./component/DemoCarList";
 import Login from "./component/Login";
 import Signup from "./component/Signup";
+import FlowerDisplay from "./component/FlowerDisplay";
+import FlowerContextProvider from "./context/FlowerContextProvider";
 
 function App() {
   return (
     <div>
-       {/* <Counter initialCount={5} />
+      {/* <Counter initialCount={5} />
        <PropDrilling />
        <Context />
        <DummyForm /> */}
-       <Mother />
-       <DemoCarList />
-       <Login />
-       <br />
-       <br />
-       <Signup />
-       
+      <FlowerContextProvider>
+      <Mother />
+      <br />
+      <br />
+      <DemoCarList />
+      <br />
+      <br />
+      <Login />
+      <br />
+      <br />
+      <Signup />
+      <br />
+      <br />
+      
+        <FlowerDisplay />
+      </FlowerContextProvider>
+
+      <br />
+      <br />
+
+
     </div>
   );
 }
